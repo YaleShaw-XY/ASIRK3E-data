@@ -1,0 +1,172 @@
+******************************Parallel Information******************************
+	->-> Serial computation chosen!
+	Process 0, will compute on device [[0(NVIDIA A100-PCIE-40GB)]] of node [[0(paraai-n32-h-01-agent-41)]].
+**************************Inviscid scheme Information***************************
+	->-> WENO7-ch             : inviscid scheme.
+	->-> 4                    : number of ghost layers.
+********************************Grid Information********************************
+	[[1]] blocks in all, the block number in each process is:
+		1   
+	The dimension of the blocks are:
+		Block 0:, mx = 1201, my = 7, mz = 1
+	->-> 2-D problem
+	->-> 8407 : total grid number
+	Finish reading boundary conditions.
+	Finish reading inner communication faces.
+	Finish creating ghost grids.
+	Finish computing metrics and jacobian values.
+
+******************************Species Information*******************************
+	->-> 9                    : number of species
+	AR	H	H2	H2O	H2O2	HO2	O	O2	OH	
+	->-> 18                   : number of reactions
+		->-> Exact Point Implicit      : chemical source treatment
+*******************************Simulation Details*******************************
+	->-> GENERAL              : canonical problem
+	->-> 14                   : number of equations to solve
+	->-> 9                    : number of scalar variables
+	->-> Transient            : flow simulation will be conducted.
+	->-> 0                    : order CDS for viscous flux
+
+*****************************Driver initialization******************************
+	Process [[0]], the free memory is  38.746GB, the used memory is   0.648GB
+	Boundary conditions are set.
+	->-> From previous results     : initialization method.
+
+*******************************Flow Information*********************************
+	Reference state:
+		->-> 7.2000000000e-02 : density(kg/m3)
+		->-> 3.9315161811e+02 : velocity(m/s)
+		->-> 0.0000000000e+00 : u(m/s)
+		->-> 0.0000000000e+00 : v(m/s)
+		->-> 7.1730000000e+03 : pressure(Pa)
+		->-> 3.7825198499e+02 : temperature(K)
+		->-> 8.8586543300e-01 : Y_AR
+		->-> 1.2772428000e-02 : Y_H2
+		->-> 1.0136213900e-01 : Y_O2
+		->-> 0.0000000000e+00 : Ma
+		->-> 0.0000000000e+00 : Re_unit(/m)
+		->-> 2.6654976251e-05 : mu(kg/m/s)
+		->-> 3.9315161811e+02 : acoustic_speed(m/s)
+		->-> 1.5515000735e+00 : specific_heat_ratio
+	->-> 8.012815e+02         : WENO scale factor
+
+******************************Prepare to compute********************************
+	Boundary conditions are applied successfully for initialization
+	Start transferring data
+	Finish transferring data
+	The driver is completely initialized on GPU.
+Complete analytic chemical-source Jacobian enabled.
+
+	-> 1.3000e-04s : Current physical time
+	-> 1.0000e-04s : Physical time to be simulated.
+	-> 2.3000e-04s : The end of the simulation time.
+
+****************************Time advancement starts with ASIRK-3F*****************************
+
+                                   rho    converged to:  1.0000e+00
+  n=       1,   dt=2.5000000e-08,   V     converged to:  1.0000e+00   
+  n=       1,   dt=2.5000000e-08,   p     converged to:  1.0000e+00   
+                                    T     converged to:  1.0000e+00
+Current physical  time is   1.30025000e-04s
+CPU time for this step is       0.74248857s
+Total elapsed CPU time is       0.74248857s
+
+                                   rho    converged to:  1.0344e+00
+  n=     500,   dt=2.5000000e-08,   V     converged to:  9.8548e-01   
+  n=     500,   dt=2.5000000e-08,   p     converged to:  1.0538e+00   
+                                    T     converged to:  1.0706e+00
+Current physical  time is   1.42500000e-04s
+CPU time for this step is       3.05275819s
+Total elapsed CPU time is       3.79524676s
+
+                                   rho    converged to:  1.8023e+00
+  n=    1000,   dt=2.5000000e-08,   V     converged to:  1.3082e+00   
+  n=    1000,   dt=2.5000000e-08,   p     converged to:  2.1018e+00   
+                                    T     converged to:  1.3957e+00
+Current physical  time is   1.55000000e-04s
+CPU time for this step is       3.15759824s
+Total elapsed CPU time is       6.95284500s
+
+                                   rho    converged to:  3.3593e+00
+  n=    1500,   dt=2.5000000e-08,   V     converged to:  2.0913e+00   
+  n=    1500,   dt=2.5000000e-08,   p     converged to:  4.4732e+00   
+                                    T     converged to:  2.2781e+00
+Current physical  time is   1.67500000e-04s
+CPU time for this step is       2.85902177s
+Total elapsed CPU time is       9.81186677s
+
+                                   rho    converged to:  5.1683e+00
+  n=    2000,   dt=2.5000000e-08,   V     converged to:  3.0757e+00   
+  n=    2000,   dt=2.5000000e-08,   p     converged to:  7.6761e+00   
+                                    T     converged to:  3.5821e+00
+Current physical  time is   1.80000000e-04s
+CPU time for this step is       2.89369556s
+Total elapsed CPU time is      12.70556233s
+
+                                   rho    converged to:  5.1779e+00
+  n=    2500,   dt=2.5000000e-08,   V     converged to:  3.9986e+00   
+  n=    2500,   dt=2.5000000e-08,   p     converged to:  8.9468e+00   
+                                    T     converged to:  8.1900e+00
+Current physical  time is   1.92500000e-04s
+CPU time for this step is       2.96307865s
+Total elapsed CPU time is      15.66864097s
+
+                                   rho    converged to:  4.6918e+00
+  n=    3000,   dt=2.5000000e-08,   V     converged to:  1.9193e+00   
+  n=    3000,   dt=2.5000000e-08,   p     converged to:  7.6306e+00   
+                                    T     converged to:  6.5162e+00
+Current physical  time is   2.05000000e-04s
+CPU time for this step is       2.86553187s
+Total elapsed CPU time is      18.53417284s
+
+                                   rho    converged to:  4.5685e+00
+  n=    3500,   dt=2.5000000e-08,   V     converged to:  4.4133e+00   
+  n=    3500,   dt=2.5000000e-08,   p     converged to:  7.3405e+00   
+                                    T     converged to:  5.8041e+00
+Current physical  time is   2.17500000e-04s
+CPU time for this step is       2.86483058s
+Total elapsed CPU time is      21.39900342s
+
+                                   rho    converged to:  4.4085e+00
+  n=    4000,   dt=2.5000000e-08,   V     converged to:  4.6159e+00   
+  n=    4000,   dt=2.5000000e-08,   p     converged to:  7.0415e+00   
+                                    T     converged to:  6.7332e+00
+Current physical  time is   2.30000000e-04s
+CPU time for this step is       2.85966440s
+Total elapsed CPU time is      24.25866781s
+The simulated physical time is 2.300250e-04, which is larger than required physical time 2.300000e-04.
+Yeah, baby, we are ok now
+  0%|          | 0/11 [00:00<?, ?it/s]100%|██████████| 11/11 [00:00<00:00, 317.38it/s]
+
+
+
+============ Job 1602496 Performance Details ============
+JobID: 1602496
+User: scx6d0j
+Nodes、GPU: paraai-n32-h-01-agent-41: 2
+Time Range: 2026-10-28 21:23:45 - 2026-10-28 21:24:15
+Running time: 0d0H0M30S
+GPU Util: 24.00 %
+GMem Util: 3.02 %
+GMemBW Util: 1.33 %
+Tensor Core Util: 0 %
+Tensor IMMA Util: N/A
+Tensor HMMA Util: N/A
+Tensor DFMA Util: N/A
+FP64 Util: 0 %
+FP32 Util: 0 %
+FP16 Util: 0 %
+GPCIE RX: 27.42 KB/s
+GPCIE TX: 54.35 KB/s
+GNVLINK: N/A
+GPU Power: 77.82 W
+GPU Temperature: 33.67 °C
+
+Additional Performance Data:
+--- flops performance(avg to single card) ---
+|- fp64: 0 TFlops
+|- fp32: 0 TFlops
+|- fp16: 0 TFlops
+|- tensor: 0 TFlops
+=========================================================

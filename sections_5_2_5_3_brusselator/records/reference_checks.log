@@ -1,0 +1,10 @@
+eps_1e-2 weak method=DOP853 nfev=12002 elapsed=2.207 check=The solver successfully reached the end of the integration interval. check_nfev=24014 check_elapsed=4.543 relative_difference=1.083622253341e-15
+eps_1e-2 noneq method=DOP853 nfev=12014 elapsed=2.053 check=The solver successfully reached the end of the integration interval. check_nfev=24014 check_elapsed=4.240 relative_difference=9.045262602117e-16
+eps_1e-3 weak method=DOP853 nfev=12146 elapsed=2.111 check=The solver successfully reached the end of the integration interval. check_nfev=24014 check_elapsed=4.577 relative_difference=8.957590378563e-16
+eps_1e-3 noneq method=DOP853 nfev=12446 elapsed=2.745 check=The solver successfully reached the end of the integration interval. check_nfev=24014 check_elapsed=5.359 relative_difference=1.769061215770e-15
+eps_1e-4 weak method=DOP853 nfev=12854 elapsed=2.422 check=The solver successfully reached the end of the integration interval. check_nfev=24710 check_elapsed=4.588 relative_difference=2.508680006456e-15
+eps_1e-4 noneq method=DOP853 nfev=13550 elapsed=2.970 check=The solver successfully reached the end of the integration interval. check_nfev=25370 check_elapsed=5.738 relative_difference=1.592633862859e-15
+eps_1e-6 weak method=DOP853 nfev=376430 elapsed=70.941 check=The solver successfully reached the end of the integration interval. check_nfev=32481 check_elapsed=8.651 relative_difference=4.265895697689e-15
+eps_1e-6 noneq method=DOP853 nfev=377162 elapsed=82.210 check=The solver successfully reached the end of the integration interval. check_nfev=78105 check_elapsed=22.429 relative_difference=6.763702635383e-15
+eps_1e-8 weak method=Radau nfev=32460 elapsed=8.928 check=The solver successfully reached the end of the integration interval. check_nfev=25145 check_elapsed=9.873 relative_difference=5.264377942404e-15
+eps_1e-8 noneq method=Radau nfev=78182 elapsed=20.777 check=The solver successfully reached the end of the integration interval. check_nfev=52998 check_elapsed=16.428 relative_difference=1.794801404219e-15

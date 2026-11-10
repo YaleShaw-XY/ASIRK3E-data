@@ -1,0 +1,155 @@
+******************************Parallel Information******************************
+	->-> Serial computation chosen!
+	Process 0, will compute on device [[0(NVIDIA A100-PCIE-40GB)]] of node [[0(paraai-n32-h-01-agent-185)]].
+**************************Inviscid scheme Information***************************
+	->-> WENO7-ch             : inviscid scheme.
+	->-> 4                    : number of ghost layers.
+	->-> Yes                  : positive preserving.
+********************************Grid Information********************************
+	[[1]] blocks in all, the block number in each process is:
+		1   
+	The dimension of the blocks are:
+		Block 0:, mx = 1201, my = 7, mz = 1
+	->-> 2-D problem
+	->-> 8407 : total grid number
+	Finish reading boundary conditions.
+	Finish reading inner communication faces.
+	Finish creating ghost grids.
+	Finish computing metrics and jacobian values.
+
+******************************Species Information*******************************
+	->-> 9                    : number of species
+	AR	H	H2	H2O	H2O2	HO2	O	O2	OH	
+	->-> 18                   : number of reactions
+		->-> explicit                  : chemical source treatment
+*******************************Simulation Details*******************************
+	->-> GENERAL              : canonical problem
+	->-> 14                   : number of equations to solve
+	->-> 9                    : number of scalar variables
+	->-> Transient            : flow simulation will be conducted.
+		->-> 3rd-order Runge-Kutta     : temporal scheme
+		->-> 2.500000e-08              : physical time step(s)
+	->-> 0                    : order CDS for viscous flux
+
+*****************************Driver initialization******************************
+	Process [[0]], the free memory is  38.816GB, the used memory is   0.578GB
+	Boundary conditions are set.
+	->-> From previous results     : initialization method.
+
+*******************************Flow Information*********************************
+	Reference state:
+		->-> 7.2000000000e-02 : density(kg/m3)
+		->-> 3.9315161811e+02 : velocity(m/s)
+		->-> 0.0000000000e+00 : u(m/s)
+		->-> 0.0000000000e+00 : v(m/s)
+		->-> 7.1730000000e+03 : pressure(Pa)
+		->-> 3.7825198499e+02 : temperature(K)
+		->-> 8.8586543300e-01 : Y_AR
+		->-> 1.2772428000e-02 : Y_H2
+		->-> 1.0136213900e-01 : Y_O2
+		->-> 0.0000000000e+00 : Ma
+		->-> 0.0000000000e+00 : Re_unit(/m)
+		->-> 2.6654976251e-05 : mu(kg/m/s)
+		->-> 3.9315161811e+02 : acoustic_speed(m/s)
+		->-> 1.5515000735e+00 : specific_heat_ratio
+	->-> 8.012815e+02         : WENO scale factor
+
+******************************Prepare to compute********************************
+	Boundary conditions are applied successfully for initialization
+	Start transferring data
+	Finish transferring data
+	The driver is completely initialized on GPU.
+
+	-> 1.3000e-04s : Current physical time
+	-> 1.0000e-04s : Physical time to be simulated.
+	-> 2.3000e-04s : The end of the simulation time.
+
+************************Time advancement with RK3 starts************************
+
+                                   rho    converged to:  1.0000e+00
+  n=       1,   dt=2.5000000e-08,   V     converged to:  1.0000e+00   
+  n=       1,   dt=2.5000000e-08,   p     converged to:  1.0000e+00   
+                                    T     converged to:  1.0000e+00
+Current physical  time is   1.30025000e-04s
+CPU time for this step is       0.88617427s
+Total elapsed CPU time is       0.88617427s
+
+                                   rho    converged to:  1.1324e+00
+  n=     500,   dt=2.5000000e-08,   V     converged to:  1.0518e+00   
+  n=     500,   dt=2.5000000e-08,   p     converged to:  6.4853e+01   
+                                    T     converged to:  1.3146e+02
+Current physical  time is   1.42500000e-04s
+CPU time for this step is       2.83399762s
+Total elapsed CPU time is       3.72017189s
+
+                                   rho    converged to:  1.2976e+00
+  n=    1000,   dt=2.5000000e-08,   V     converged to:  1.1187e+00   
+  n=    1000,   dt=2.5000000e-08,   p     converged to:  9.2792e+01   
+                                    T     converged to:  1.8897e+02
+Current physical  time is   1.55000000e-04s
+CPU time for this step is       3.02763356s
+Total elapsed CPU time is       6.74780545s
+
+                                   rho    converged to:  1.3477e+00
+  n=    1500,   dt=2.5000000e-08,   V     converged to:  1.1338e+00   
+  n=    1500,   dt=2.5000000e-08,   p     converged to:  1.1556e+02   
+                                    T     converged to:  2.3568e+02
+Current physical  time is   1.67500000e-04s
+CPU time for this step is       2.77609383s
+Total elapsed CPU time is       9.52389927s
+
+                                   rho    converged to:  1.4033e+00
+  n=    2000,   dt=2.5000000e-08,   V     converged to:  1.2183e+00   
+  n=    2000,   dt=2.5000000e-08,   p     converged to:  1.3445e+02   
+                                    T     converged to:  2.7419e+02
+Current physical  time is   1.80000000e-04s
+CPU time for this step is       2.82028535s
+Total elapsed CPU time is      12.34418462s
+
+                                   rho    converged to:  1.3562e+00
+  n=    2500,   dt=2.5000000e-08,   V     converged to:  1.1573e+00   
+  n=    2500,   dt=2.5000000e-08,   p     converged to:  1.5190e+02   
+                                    T     converged to:  3.0977e+02
+Current physical  time is   1.92500000e-04s
+CPU time for this step is       2.85303482s
+Total elapsed CPU time is      15.19721944s
+
+                                   rho    converged to:  2.2071e+00
+  n=    3000,   dt=2.5000000e-08,   V     converged to:  2.0029e+00   
+  n=    3000,   dt=2.5000000e-08,   p     converged to:  1.6977e+02   
+                                    T     converged to:  3.4584e+02
+Current physical  time is   2.05000000e-04s
+CPU time for this step is       2.77590133s
+Total elapsed CPU time is      17.97312077s
+(581,6,0) in p[0]: duvwpt=(0.460487,254.489159,0.014664,0.000000,-534615.173756,27941.071723)
+(581,0,0) in p[0]: duvwpt=(0.462048,246.066371,-0.006360,0.000000,7656143.344060,-69883.589528)
+(581,1,0) in p[0]: duvwpt=(0.461733,238.856969,-0.015205,0.000000,7646282.001314,-69370.712370)
+(581,2,0) in p[0]: duvwpt=(0.462548,240.816711,0.019511,0.000000,7656157.247854,-68075.540134)
+(581,3,0) in p[0]: duvwpt=(0.461435,250.011491,-0.040243,0.000000,7811953.964028,-84109.938864)
+(581,4,0) in p[0]: duvwpt=(0.463530,224.283892,-0.030505,0.000000,-1152660.433632,32626.451883)
+(581,5,0) in p[0]: duvwpt=(0.459684,233.221617,0.093389,0.000000,7650531.312254,-74682.350991)
+(580,5,0) in p[0]: duvwpt=(0.461665,-801.061839,0.068834,0.000000,-37166098.466967,-525856.582187)
+(580,2,0) in p[0]: duvwpt=(0.462661,-791.364858,0.016519,0.000000,-45665397615.010414,-660462868.686406)
+(580,3,0) in p[0]: duvwpt=(0.462012,-805.079406,-0.035616,0.000000,-10557963.437669,-148869.359280)
+(580,0,0) in p[0]: duvwpt=(0.462486,-785.977301,-0.006404,0.000000,-599530465.623903,-8646781.691580)
+(580,1,0) in p[0]: duvwpt=(0.462365,-793.708787,-0.013903,0.000000,-678369036.764998,-9765329.576195)
+Nan occurred in step 3500. Stop simulation.
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 0 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+
+
+
+============ Job 1602648 Performance Details ============
+JobID: 1602648
+User: scx6d0j
+Nodes、GPU: N/A
+Time Range: 2026-10-28 22:22:04 - 2026-10-28 22:22:31
+Running time: 0d0H0M27S
+Get GPU mapping information failed，can not perform performance query。
+=========================================================

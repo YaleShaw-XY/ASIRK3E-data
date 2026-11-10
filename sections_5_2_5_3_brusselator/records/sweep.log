@@ -1,0 +1,3775 @@
+START eps=0.01 case=weak
+IC mode=sundials_gaussian_nonequilibrium, component minima=[1 3.46534653 3.46534653]
+Equilibrium [Jf,Jg] Frobenius norm = 20467.4142447
+rho(Jf0)=1077.33333333, rho(Jg0)=101.034846536, chi=0.0937823451755, q(h=0.005)=0.505174232679
+Jg directional FD relative error = 2.638101409e-13
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ����ӽ�����ֵ���������Ų�����������ܲ�׼ȷ��RCOND =  1.831485e-18��] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1957 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ����ӽ�����ֵ���������Ų�����������ܲ�׼ȷ��RCOND =  2.186429e-21��] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1963 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3F (�� 2254 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 829 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3F (�� 2258 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 829 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ���� Strang-2 (midpoint reaction) �ڵ� 6 ��ʧ�ܣ�h=2.000e-02, eps=1.000e-02, ԭ��Midpoint Newton line search failed at tau=0.01] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+[����: ���� Strang-2 (SDIRK2 reaction) �ڵ� 6 ��ʧ�ܣ�h=2.000e-02, eps=1.000e-02, ԭ��TR-BDF2 reaction Newton failed: alpha=2.929e-03, eps=1.000e-02, residual=4.768e+10] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+[����: ���� ARK3(2)4L[2]SA �ڵ� 6 ��ʧ�ܣ�h=2.000e-02, eps=1.000e-02, ԭ��ARK Newton failed at stage 4, h = 2.000000e-02, eps = 1.000000e-02. Try smaller h or set verbose=true.] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ����ӽ�����ֵ���������Ų�����������ܲ�׼ȷ��RCOND =  1.325924e-18��] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1957 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ����ӽ�����ֵ���������Ų�����������ܲ�׼ȷ��RCOND =  5.504541e-19��] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1963 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1951 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1957 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1963 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3F (�� 2254 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 829 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3F (�� 2258 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 829 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ���� Strang-2 (midpoint reaction) �ڵ� 10 ��ʧ�ܣ�h=1.000e-02, eps=1.000e-02, ԭ��Midpoint Newton line search failed at tau=0.005] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+[����: ���� Strang-2 (SDIRK2 reaction) �ڵ� 10 ��ʧ�ܣ�h=1.000e-02, eps=1.000e-02, ԭ��TR-BDF2 reaction Newton failed: alpha=1.464e-03, eps=1.000e-02, residual=8.498e+10] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+[����: ���� ARK3(2)4L[2]SA �ڵ� 10 ��ʧ�ܣ�h=1.000e-02, eps=1.000e-02, ԭ��ARK Newton failed at stage 2, h = 1.000000e-02, eps = 1.000000e-02. Try smaller h or set verbose=true.] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ����ӽ�����ֵ���������Ų�����������ܲ�׼ȷ��RCOND =  1.073426e-16��] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1951 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ����ӽ�����ֵ���������Ų�����������ܲ�׼ȷ��RCOND =  1.516793e-17��] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1957 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ����ӽ�����ֵ���������Ų�����������ܲ�׼ȷ��RCOND =  7.163755e-18��] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1963 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ����ӽ�����ֵ���������Ų�����������ܲ�׼ȷ��RCOND =  5.574856e-18��] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1951 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ����ӽ�����ֵ���������Ų�����������ܲ�׼ȷ��RCOND =  1.144786e-18��] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1957 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ����ӽ�����ֵ���������Ų�����������ܲ�׼ȷ��RCOND =  1.603576e-19��] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1963 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ����ӽ�����ֵ���������Ų�����������ܲ�׼ȷ��RCOND =  4.918192e-19��] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1951 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ����ӽ�����ֵ���������Ų�����������ܲ�׼ȷ��RCOND =  5.816679e-20��] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1957 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ����ӽ�����ֵ���������Ų�����������ܲ�׼ȷ��RCOND =  6.800989e-20��] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1963 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ����ӽ�����ֵ���������Ų�����������ܲ�׼ȷ��RCOND =  4.700353e-20��] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1951 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1957 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1963 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3F (�� 2254 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 829 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3F (�� 2258 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 829 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ���� Strang-2 (midpoint reaction) �ڵ� 18 ��ʧ�ܣ�h=5.000e-03, eps=1.000e-02, ԭ��Midpoint Newton line search failed at tau=0.0025] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+[����: ���� Strang-2 (SDIRK2 reaction) �ڵ� 18 ��ʧ�ܣ�h=5.000e-03, eps=1.000e-02, ԭ��TR-BDF2 reaction Newton failed: alpha=7.322e-04, eps=1.000e-02, residual=1.147e+11] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+[����: ���� ARK3(2)4L[2]SA �ڵ� 24 ��ʧ�ܣ�h=5.000e-03, eps=1.000e-02, ԭ��ARK Newton failed at stage 2, h = 5.000000e-03, eps = 1.000000e-02. Try smaller h or set verbose=true.] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+SCAN_CASE_DONE eps=0.01 case=sundials_gaussian_nonequilibrium eta=0.001 rows=77
+DONE eps=0.01 case=weak elapsed=221.469
+START eps=0.01 case=noneq
+IC mode=sundials_gaussian_nonequilibrium, component minima=[1 3.5 3]
+Equilibrium [Jf,Jg] Frobenius norm = 20467.4142447
+rho(Jf0)=1077.33333333, rho(Jg0)=101.13286594, chi=0.0938733285331, q(h=0.005)=0.505664329699
+Jg directional FD relative error = 4.18195191301e-10
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ����ӽ�����ֵ���������Ų�����������ܲ�׼ȷ��RCOND =  1.542038e-16��] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1963 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1951 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1957 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1963 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3F (�� 2254 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 829 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3F (�� 2258 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 829 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ���� Strang-2 (midpoint reaction) �ڵ� 5 ��ʧ�ܣ�h=2.000e-02, eps=1.000e-02, ԭ��Midpoint Newton line search failed at tau=0.01] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+[����: ���� Strang-2 (SDIRK2 reaction) �ڵ� 5 ��ʧ�ܣ�h=2.000e-02, eps=1.000e-02, ԭ��TR-BDF2 reaction Newton failed: alpha=2.929e-03, eps=1.000e-02, residual=2.816e+11] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+[����: ���� ARK3(2)4L[2]SA �ڵ� 5 ��ʧ�ܣ�h=2.000e-02, eps=1.000e-02, ԭ��ARK Newton failed at stage 2, h = 2.000000e-02, eps = 1.000000e-02. Try smaller h or set verbose=true.] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ����ӽ�����ֵ���������Ų�����������ܲ�׼ȷ��RCOND =  7.912337e-17��] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1951 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1957 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1963 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3F (�� 2254 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 829 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3F (�� 2258 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 829 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ���� Strang-2 (midpoint reaction) �ڵ� 7 ��ʧ�ܣ�h=1.000e-02, eps=1.000e-02, ԭ��Midpoint Newton line search failed at tau=0.005] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+[����: ���� Strang-2 (SDIRK2 reaction) �ڵ� 7 ��ʧ�ܣ�h=1.000e-02, eps=1.000e-02, ԭ��TR-BDF2 reaction Newton failed: alpha=1.464e-03, eps=1.000e-02, residual=9.464e+10] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+[����: ���� ARK3(2)4L[2]SA �ڵ� 8 ��ʧ�ܣ�h=1.000e-02, eps=1.000e-02, ԭ��ARK Newton failed at stage 2, h = 1.000000e-02, eps = 1.000000e-02. Try smaller h or set verbose=true.] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ����ӽ�����ֵ���������Ų�����������ܲ�׼ȷ��RCOND =  1.032688e-16��] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1957 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ����ӽ�����ֵ���������Ų�����������ܲ�׼ȷ��RCOND =  3.184560e-17��] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1963 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ����ӽ�����ֵ���������Ų�����������ܲ�׼ȷ��RCOND =  1.046968e-17��] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1951 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ����ӽ�����ֵ���������Ų�����������ܲ�׼ȷ��RCOND =  4.063228e-18��] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1957 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ����ӽ�����ֵ���������Ų�����������ܲ�׼ȷ��RCOND =  3.426837e-18��] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1963 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ����ӽ�����ֵ���������Ų�����������ܲ�׼ȷ��RCOND =  1.768123e-18��] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1951 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ����ӽ�����ֵ���������Ų�����������ܲ�׼ȷ��RCOND =  3.453814e-19��] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1957 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ����ӽ�����ֵ���������Ų�����������ܲ�׼ȷ��RCOND =  5.019973e-19��] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1963 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ����ӽ�����ֵ���������Ų�����������ܲ�׼ȷ��RCOND =  5.822196e-19��] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1951 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ����ӽ�����ֵ���������Ų�����������ܲ�׼ȷ��RCOND =  1.132837e-19��] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1957 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ����ӽ�����ֵ���������Ų�����������ܲ�׼ȷ��RCOND =  3.092312e-19��] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1963 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ����ӽ�����ֵ���������Ų�����������ܲ�׼ȷ��RCOND =  8.278370e-20��] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1951 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ����ӽ�����ֵ���������Ų�����������ܲ�׼ȷ��RCOND =  1.373164e-20��] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1957 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ����ӽ�����ֵ���������Ų�����������ܲ�׼ȷ��RCOND =  2.103715e-20��] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1963 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1951 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1957 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1963 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3F (�� 2254 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 829 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3F (�� 2258 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 829 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ���� Strang-2 (midpoint reaction) �ڵ� 15 ��ʧ�ܣ�h=5.000e-03, eps=1.000e-02, ԭ��Midpoint Newton line search failed at tau=0.0025] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+[����: ���� Strang-2 (SDIRK2 reaction) �ڵ� 15 ��ʧ�ܣ�h=5.000e-03, eps=1.000e-02, ԭ��TR-BDF2 reaction Newton failed: alpha=7.322e-04, eps=1.000e-02, residual=2.773e+10] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+[����: ���� ARK3(2)4L[2]SA �ڵ� 21 ��ʧ�ܣ�h=5.000e-03, eps=1.000e-02, ԭ��ARK Newton failed at stage 2, h = 5.000000e-03, eps = 1.000000e-02. Try smaller h or set verbose=true.] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+SCAN_CASE_DONE eps=0.01 case=sundials_gaussian_nonequilibrium eta=0.1 rows=77
+DONE eps=0.01 case=noneq elapsed=199.463
+START eps=0.001 case=weak
+IC mode=sundials_gaussian_nonequilibrium, component minima=[1 3.4965035 3.4965035]
+Equilibrium [Jf,Jg] Frobenius norm = 20625.2646536
+rho(Jf0)=1077.33333333, rho(Jg0)=1001.00449224, chi=0.929150209383, q(h=0.005)=5.00502246121
+Jg directional FD relative error = 1.9274272284e-13
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ����ӽ�����ֵ���������Ų�����������ܲ�׼ȷ��RCOND =  2.881368e-18��] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1957 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1963 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3F (�� 2254 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 829 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3F (�� 2258 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 829 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ���� Strang-2 (midpoint reaction) �ڵ� 6 ��ʧ�ܣ�h=2.000e-02, eps=1.000e-03, ԭ��Midpoint Newton line search failed at tau=0.01] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+[����: ���� Strang-2 (SDIRK2 reaction) �ڵ� 6 ��ʧ�ܣ�h=2.000e-02, eps=1.000e-03, ԭ��TR-BDF2 reaction Newton failed: alpha=2.929e-03, eps=1.000e-03, residual=5.770e+10] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+[����: ���� ARK3(2)4L[2]SA �ڵ� 6 ��ʧ�ܣ�h=2.000e-02, eps=1.000e-03, ԭ��ARK Newton failed at stage 4, h = 2.000000e-02, eps = 1.000000e-03. Try smaller h or set verbose=true.] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ����ӽ�����ֵ���������Ų�����������ܲ�׼ȷ��RCOND =  1.928470e-17��] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1957 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ����ӽ�����ֵ���������Ų�����������ܲ�׼ȷ��RCOND =  1.014280e-18��] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1963 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1951 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1957 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1963 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3F (�� 2254 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 829 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3F (�� 2258 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 829 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ���� Strang-2 (midpoint reaction) �ڵ� 10 ��ʧ�ܣ�h=1.000e-02, eps=1.000e-03, ԭ��Midpoint Newton did not converge at tau=0.005] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+[����: ���� Strang-2 (SDIRK2 reaction) �ڵ� 10 ��ʧ�ܣ�h=1.000e-02, eps=1.000e-03, ԭ��TR-BDF2 reaction Newton failed: alpha=1.464e-03, eps=1.000e-03, residual=8.483e+10] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+[����: ���� ARK3(2)4L[2]SA �ڵ� 10 ��ʧ�ܣ�h=1.000e-02, eps=1.000e-03, ԭ��ARK Newton failed at stage 2, h = 1.000000e-02, eps = 1.000000e-03. Try smaller h or set verbose=true.] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1957 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1963 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ����ӽ�����ֵ���������Ų�����������ܲ�׼ȷ��RCOND =  1.331667e-17��] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3F (�� 2254 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 829 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ����ӽ�����ֵ���������Ų�����������ܲ�׼ȷ��RCOND =  1.331667e-17��] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3F (�� 2258 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 829 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3F (�� 2254 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 829 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3F (�� 2258 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 829 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ���� Strang-2 (midpoint reaction) �ڵ� 18 ��ʧ�ܣ�h=5.000e-03, eps=1.000e-03, ԭ��Midpoint Newton line search failed at tau=0.0025] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+[����: ���� Strang-2 (SDIRK2 reaction) �ڵ� 18 ��ʧ�ܣ�h=5.000e-03, eps=1.000e-03, ԭ��TR-BDF2 reaction Newton failed: alpha=7.322e-04, eps=1.000e-03, residual=9.628e+10] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+[����: ���� ARK3(2)4L[2]SA �ڵ� 24 ��ʧ�ܣ�h=5.000e-03, eps=1.000e-03, ԭ��ARK Newton failed at stage 2, h = 5.000000e-03, eps = 1.000000e-03. Try smaller h or set verbose=true.] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+SCAN_CASE_DONE eps=0.001 case=sundials_gaussian_nonequilibrium eta=0.001 rows=77
+DONE eps=0.001 case=weak elapsed=206.489
+START eps=0.001 case=noneq
+IC mode=sundials_gaussian_nonequilibrium, component minima=[1 3.5 3]
+Equilibrium [Jf,Jg] Frobenius norm = 20625.2646536
+rho(Jf0)=1077.33333333, rho(Jg0)=1001.10339738, chi=0.929242014895, q(h=0.005)=5.0055169869
+Jg directional FD relative error = 4.17478427131e-10
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ����ӽ�����ֵ���������Ų�����������ܲ�׼ȷ��RCOND =  2.169534e-16��] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1963 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1957 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1963 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3F (�� 2254 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 829 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3F (�� 2258 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 829 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ���� Strang-2 (midpoint reaction) �ڵ� 5 ��ʧ�ܣ�h=2.000e-02, eps=1.000e-03, ԭ��Midpoint Newton line search failed at tau=0.01] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+[����: ���� Strang-2 (SDIRK2 reaction) �ڵ� 5 ��ʧ�ܣ�h=2.000e-02, eps=1.000e-03, ԭ��TR-BDF2 reaction Newton failed: alpha=2.929e-03, eps=1.000e-03, residual=7.506e+09] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+[����: ���� ARK3(2)4L[2]SA �ڵ� 5 ��ʧ�ܣ�h=2.000e-02, eps=1.000e-03, ԭ��ARK Newton failed at stage 2, h = 2.000000e-02, eps = 1.000000e-03. Try smaller h or set verbose=true.] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ����ӽ�����ֵ���������Ų�����������ܲ�׼ȷ��RCOND =  1.477419e-16��] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1963 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ����ӽ�����ֵ���������Ų�����������ܲ�׼ȷ��RCOND =  1.978403e-16��] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1951 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1957 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1963 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ����ӽ�����ֵ���������Ų�����������ܲ�׼ȷ��RCOND =  3.272003e-17��] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3F (�� 2254 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 829 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ����ӽ�����ֵ���������Ų�����������ܲ�׼ȷ��RCOND =  3.272003e-17��] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3F (�� 2258 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 829 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3F (�� 2254 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 829 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3F (�� 2258 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 829 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ���� Strang-2 (midpoint reaction) �ڵ� 7 ��ʧ�ܣ�h=1.000e-02, eps=1.000e-03, ԭ��Midpoint Newton line search failed at tau=0.005] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+[����: ���� Strang-2 (SDIRK2 reaction) �ڵ� 7 ��ʧ�ܣ�h=1.000e-02, eps=1.000e-03, ԭ��TR-BDF2 reaction Newton failed: alpha=1.464e-03, eps=1.000e-03, residual=9.738e+10] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+[����: ���� ARK3(2)4L[2]SA �ڵ� 8 ��ʧ�ܣ�h=1.000e-02, eps=1.000e-03, ԭ��ARK Newton failed at stage 2, h = 1.000000e-02, eps = 1.000000e-03. Try smaller h or set verbose=true.] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1957 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1963 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ����ӽ�����ֵ���������Ų�����������ܲ�׼ȷ��RCOND =  1.331023e-18��] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3F (�� 2254 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 829 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ����ӽ�����ֵ���������Ų�����������ܲ�׼ȷ��RCOND =  1.331023e-18��] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3F (�� 2258 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 829 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3F (�� 2254 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 829 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3F (�� 2258 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 829 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ���� Strang-2 (midpoint reaction) �ڵ� 15 ��ʧ�ܣ�h=5.000e-03, eps=1.000e-03, ԭ��Midpoint Newton line search failed at tau=0.0025] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+[����: ���� Strang-2 (SDIRK2 reaction) �ڵ� 15 ��ʧ�ܣ�h=5.000e-03, eps=1.000e-03, ԭ��TR-BDF2 reaction Newton failed: alpha=7.322e-04, eps=1.000e-03, residual=2.771e+10] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+[����: ���� ARK3(2)4L[2]SA �ڵ� 21 ��ʧ�ܣ�h=5.000e-03, eps=1.000e-03, ԭ��ARK Newton failed at stage 2, h = 5.000000e-03, eps = 1.000000e-03. Try smaller h or set verbose=true.] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+SCAN_CASE_DONE eps=0.001 case=sundials_gaussian_nonequilibrium eta=0.1 rows=77
+DONE eps=0.001 case=noneq elapsed=205.562
+START eps=0.0001 case=weak
+IC mode=sundials_gaussian_nonequilibrium, component minima=[1 3.49965003 3.49965003]
+Equilibrium [Jf,Jg] Frobenius norm = 20641.2170281
+rho(Jf0)=1077.33333333, rho(Jg0)=10001.0013503, chi=9.28310768904, q(h=0.005)=50.0050067516
+Jg directional FD relative error = 4.28096527325e-13
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1957 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1963 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3F (�� 2254 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 829 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3F (�� 2258 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 829 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ���� Strang-2 (midpoint reaction) �ڵ� 6 ��ʧ�ܣ�h=2.000e-02, eps=1.000e-04, ԭ��Midpoint Newton line search failed at tau=0.01] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+[����: ���� Strang-2 (SDIRK2 reaction) �ڵ� 6 ��ʧ�ܣ�h=2.000e-02, eps=1.000e-04, ԭ��TR-BDF2 reaction Newton failed: alpha=2.929e-03, eps=1.000e-04, residual=6.277e+10] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+[����: ���� ARK3(2)4L[2]SA �ڵ� 6 ��ʧ�ܣ�h=2.000e-02, eps=1.000e-04, ԭ��ARK Newton failed at stage 4, h = 2.000000e-02, eps = 1.000000e-04. Try smaller h or set verbose=true.] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ����ӽ�����ֵ���������Ų�����������ܲ�׼ȷ��RCOND =  1.363793e-16��] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1957 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ����ӽ�����ֵ���������Ų�����������ܲ�׼ȷ��RCOND =  3.849344e-17��] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1963 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1951 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1957 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1963 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3F (�� 2254 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 829 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3F (�� 2258 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 829 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ���� Strang-2 (midpoint reaction) �ڵ� 10 ��ʧ�ܣ�h=1.000e-02, eps=1.000e-04, ԭ��Midpoint Newton did not converge at tau=0.005] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+[����: ���� Strang-2 (SDIRK2 reaction) �ڵ� 10 ��ʧ�ܣ�h=1.000e-02, eps=1.000e-04, ԭ��TR-BDF2 reaction Newton failed: alpha=1.464e-03, eps=1.000e-04, residual=8.504e+10] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+[����: ���� ARK3(2)4L[2]SA �ڵ� 10 ��ʧ�ܣ�h=1.000e-02, eps=1.000e-04, ԭ��ARK Newton failed at stage 2, h = 1.000000e-02, eps = 1.000000e-04. Try smaller h or set verbose=true.] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ����ӽ�����ֵ���������Ų�����������ܲ�׼ȷ��RCOND =  3.604235e-17��] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1957 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ����ӽ�����ֵ���������Ų�����������ܲ�׼ȷ��RCOND =  4.003278e-17��] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1963 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ����ӽ�����ֵ���������Ų�����������ܲ�׼ȷ��RCOND =  5.734028e-18��] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1951 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ����ӽ�����ֵ���������Ų�����������ܲ�׼ȷ��RCOND =  9.835838e-19��] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1957 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ����ӽ�����ֵ���������Ų�����������ܲ�׼ȷ��RCOND =  1.984924e-18��] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1963 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ����ӽ�����ֵ���������Ų�����������ܲ�׼ȷ��RCOND =  1.506606e-19��] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1951 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ����ӽ�����ֵ���������Ų�����������ܲ�׼ȷ��RCOND =  3.165564e-21��] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1957 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ����ӽ�����ֵ���������Ų�����������ܲ�׼ȷ��RCOND =  4.506073e-20��] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1963 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ����ӽ�����ֵ���������Ų�����������ܲ�׼ȷ��RCOND =  2.150054e-20��] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1951 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ����ӽ�����ֵ���������Ų�����������ܲ�׼ȷ��RCOND =  4.421580e-21��] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1957 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ����ӽ�����ֵ���������Ų�����������ܲ�׼ȷ��RCOND =  3.864428e-23��] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1963 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ����ӽ�����ֵ���������Ų�����������ܲ�׼ȷ��RCOND =  1.315984e-21��] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1951 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1957 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1963 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3F (�� 2254 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 829 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3F (�� 2258 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 829 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ���� Strang-2 (midpoint reaction) �ڵ� 18 ��ʧ�ܣ�h=5.000e-03, eps=1.000e-04, ԭ��Midpoint Newton line search failed at tau=0.0025] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+[����: ���� Strang-2 (SDIRK2 reaction) �ڵ� 18 ��ʧ�ܣ�h=5.000e-03, eps=1.000e-04, ԭ��TR-BDF2 reaction Newton failed: alpha=7.322e-04, eps=1.000e-04, residual=2.613e+09] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+[����: ���� ARK3(2)4L[2]SA �ڵ� 24 ��ʧ�ܣ�h=5.000e-03, eps=1.000e-04, ԭ��ARK Newton failed at stage 2, h = 5.000000e-03, eps = 1.000000e-04. Try smaller h or set verbose=true.] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+SCAN_CASE_DONE eps=0.0001 case=sundials_gaussian_nonequilibrium eta=0.001 rows=77
+DONE eps=0.0001 case=weak elapsed=188.784
+START eps=0.0001 case=noneq
+IC mode=sundials_gaussian_nonequilibrium, component minima=[1 3.5 3]
+Equilibrium [Jf,Jg] Frobenius norm = 20641.2170281
+rho(Jf0)=1077.33333333, rho(Jg0)=10001.1003409, chi=9.28319957383, q(h=0.005)=50.0055017044
+Jg directional FD relative error = 5.63695820757e-10
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ����ӽ�����ֵ���������Ų�����������ܲ�׼ȷ��RCOND =  7.109531e-17��] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1963 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1957 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1963 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3F (�� 2254 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 829 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3F (�� 2258 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 829 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ���� Strang-2 (midpoint reaction) �ڵ� 5 ��ʧ�ܣ�h=2.000e-02, eps=1.000e-04, ԭ��Midpoint Newton line search failed at tau=0.01] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+[����: ���� Strang-2 (SDIRK2 reaction) �ڵ� 5 ��ʧ�ܣ�h=2.000e-02, eps=1.000e-04, ԭ��TR-BDF2 reaction Newton failed: alpha=2.929e-03, eps=1.000e-04, residual=9.702e+09] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+[����: ���� ARK3(2)4L[2]SA �ڵ� 5 ��ʧ�ܣ�h=2.000e-02, eps=1.000e-04, ԭ��ARK Newton failed at stage 2, h = 2.000000e-02, eps = 1.000000e-04. Try smaller h or set verbose=true.] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ����ӽ�����ֵ���������Ų�����������ܲ�׼ȷ��RCOND =  2.081371e-16��] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1951 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1957 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1963 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3F (�� 2254 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 829 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3F (�� 2258 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 829 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ���� Strang-2 (midpoint reaction) �ڵ� 7 ��ʧ�ܣ�h=1.000e-02, eps=1.000e-04, ԭ��Midpoint Newton line search failed at tau=0.005] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+[����: ���� Strang-2 (SDIRK2 reaction) �ڵ� 7 ��ʧ�ܣ�h=1.000e-02, eps=1.000e-04, ԭ��TR-BDF2 reaction Newton failed: alpha=1.464e-03, eps=1.000e-04, residual=3.486e+08] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+[����: ���� ARK3(2)4L[2]SA �ڵ� 8 ��ʧ�ܣ�h=1.000e-02, eps=1.000e-04, ԭ��ARK Newton failed at stage 2, h = 1.000000e-02, eps = 1.000000e-04. Try smaller h or set verbose=true.] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1957 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1963 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3F (�� 2254 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 829 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3F (�� 2258 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 829 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ���� Strang-2 (midpoint reaction) �ڵ� 15 ��ʧ�ܣ�h=5.000e-03, eps=1.000e-04, ԭ��Midpoint Newton line search failed at tau=0.0025] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+[����: ���� Strang-2 (SDIRK2 reaction) �ڵ� 15 ��ʧ�ܣ�h=5.000e-03, eps=1.000e-04, ԭ��TR-BDF2 reaction Newton failed: alpha=7.322e-04, eps=1.000e-04, residual=2.880e+10] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+[����: ���� ARK3(2)4L[2]SA �ڵ� 21 ��ʧ�ܣ�h=5.000e-03, eps=1.000e-04, ԭ��ARK Newton failed at stage 2, h = 5.000000e-03, eps = 1.000000e-04. Try smaller h or set verbose=true.] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+SCAN_CASE_DONE eps=0.0001 case=sundials_gaussian_nonequilibrium eta=0.1 rows=77
+DONE eps=0.0001 case=noneq elapsed=189.801
+START eps=1e-06 case=weak
+IC mode=sundials_gaussian_nonequilibrium, component minima=[1 3.4999965 3.4999965]
+Equilibrium [Jf,Jg] Frobenius norm = 20642.9736654
+rho(Jf0)=1077.33333333, rho(Jg0)=1000001.001, chi=928.218750931, q(h=0.005)=5000.00500502
+Jg directional FD relative error = 3.31315310646e-13
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ����ӽ�����ֵ���������Ų�����������ܲ�׼ȷ��RCOND =  8.060220e-17��] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1957 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1963 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3F (�� 2254 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 829 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3F (�� 2258 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 829 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ���� Strang-2 (midpoint reaction) �ڵ� 6 ��ʧ�ܣ�h=2.000e-02, eps=1.000e-06, ԭ��Midpoint Newton line search failed at tau=0.01] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+[����: ���� Strang-2 (SDIRK2 reaction) �ڵ� 6 ��ʧ�ܣ�h=2.000e-02, eps=1.000e-06, ԭ��TR-BDF2 reaction Newton failed: alpha=2.929e-03, eps=1.000e-06, residual=6.310e+10] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+[����: ���� ARK3(2)4L[2]SA �ڵ� 6 ��ʧ�ܣ�h=2.000e-02, eps=1.000e-06, ԭ��ARK Newton failed at stage 4, h = 2.000000e-02, eps = 1.000000e-06. Try smaller h or set verbose=true.] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1951 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1957 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1963 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ����ӽ�����ֵ���������Ų�����������ܲ�׼ȷ��RCOND =  2.018909e-18��] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3F (�� 2254 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 829 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ����ӽ�����ֵ���������Ų�����������ܲ�׼ȷ��RCOND =  2.018909e-18��] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3F (�� 2258 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 829 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3F (�� 2254 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 829 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3F (�� 2258 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 829 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ���� Strang-2 (midpoint reaction) �ڵ� 10 ��ʧ�ܣ�h=1.000e-02, eps=1.000e-06, ԭ��Midpoint Newton line search failed at tau=0.005] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+[����: ���� Strang-2 (SDIRK2 reaction) �ڵ� 10 ��ʧ�ܣ�h=1.000e-02, eps=1.000e-06, ԭ��TR-BDF2 reaction Newton reached maxIter=30, alpha=1.464e-03, eps=1.000e-06] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+[����: ���� ARK3(2)4L[2]SA �ڵ� 10 ��ʧ�ܣ�h=1.000e-02, eps=1.000e-06, ԭ��ARK Newton failed at stage 2, h = 1.000000e-02, eps = 1.000000e-06. Try smaller h or set verbose=true.] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ����ӽ�����ֵ���������Ų�����������ܲ�׼ȷ��RCOND =  3.952695e-17��] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1951 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ����ӽ�����ֵ���������Ų�����������ܲ�׼ȷ��RCOND =  1.753225e-17��] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1957 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ����ӽ�����ֵ���������Ų�����������ܲ�׼ȷ��RCOND =  5.314727e-17��] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1963 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ����ӽ�����ֵ���������Ų�����������ܲ�׼ȷ��RCOND =  4.330875e-19��] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1951 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ����ӽ�����ֵ���������Ų�����������ܲ�׼ȷ��RCOND =  5.447512e-19��] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1957 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ����ӽ�����ֵ���������Ų�����������ܲ�׼ȷ��RCOND =  3.891055e-19��] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1963 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ����ӽ�����ֵ���������Ų�����������ܲ�׼ȷ��RCOND =  4.520109e-20��] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1951 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ����ӽ�����ֵ���������Ų�����������ܲ�׼ȷ��RCOND =  1.178393e-20��] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1957 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ����ӽ�����ֵ���������Ų�����������ܲ�׼ȷ��RCOND =  1.679059e-21��] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1963 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1951 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1957 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1963 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3F (�� 2254 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 829 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3F (�� 2258 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 829 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ���� Strang-2 (midpoint reaction) �ڵ� 18 ��ʧ�ܣ�h=5.000e-03, eps=1.000e-06, ԭ��Midpoint Newton line search failed at tau=0.0025] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+[����: ���� Strang-2 (SDIRK2 reaction) �ڵ� 18 ��ʧ�ܣ�h=5.000e-03, eps=1.000e-06, ԭ��TR-BDF2 reaction Newton failed: alpha=7.322e-04, eps=1.000e-06, residual=9.728e+10] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+[����: ���� ARK3(2)4L[2]SA �ڵ� 24 ��ʧ�ܣ�h=5.000e-03, eps=1.000e-06, ԭ��ARK Newton failed at stage 2, h = 5.000000e-03, eps = 1.000000e-06. Try smaller h or set verbose=true.] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+SCAN_CASE_DONE eps=1e-06 case=sundials_gaussian_nonequilibrium eta=0.001 rows=77
+DONE eps=1e-06 case=weak elapsed=183.384
+START eps=1e-06 case=noneq
+IC mode=sundials_gaussian_nonequilibrium, component minima=[1 3.5 3]
+Equilibrium [Jf,Jg] Frobenius norm = 20642.9736654
+rho(Jf0)=1077.33333333, rho(Jg0)=1000001.1, chi=928.218842825, q(h=0.005)=5000.00550002
+Jg directional FD relative error = 3.61942416461e-10
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1957 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1963 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3F (�� 2254 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 829 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3F (�� 2258 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 829 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ���� Strang-2 (midpoint reaction) �ڵ� 5 ��ʧ�ܣ�h=2.000e-02, eps=1.000e-06, ԭ��Midpoint Newton line search failed at tau=0.01] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+[����: ���� Strang-2 (SDIRK2 reaction) �ڵ� 5 ��ʧ�ܣ�h=2.000e-02, eps=1.000e-06, ԭ��TR-BDF2 reaction Newton failed: alpha=2.929e-03, eps=1.000e-06, residual=9.823e+09] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+[����: ���� ARK3(2)4L[2]SA �ڵ� 5 ��ʧ�ܣ�h=2.000e-02, eps=1.000e-06, ԭ��ARK Newton failed at stage 2, h = 2.000000e-02, eps = 1.000000e-06. Try smaller h or set verbose=true.] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1957 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1963 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3F (�� 2254 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 829 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3F (�� 2258 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 829 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ���� Strang-2 (midpoint reaction) �ڵ� 7 ��ʧ�ܣ�h=1.000e-02, eps=1.000e-06, ԭ��Midpoint Newton line search failed at tau=0.005] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+[����: ���� Strang-2 (SDIRK2 reaction) �ڵ� 7 ��ʧ�ܣ�h=1.000e-02, eps=1.000e-06, ԭ��TR-BDF2 reaction Newton failed: alpha=1.464e-03, eps=1.000e-06, residual=4.163e+08] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+[����: ���� ARK3(2)4L[2]SA �ڵ� 8 ��ʧ�ܣ�h=1.000e-02, eps=1.000e-06, ԭ��ARK Newton failed at stage 2, h = 1.000000e-02, eps = 1.000000e-06. Try smaller h or set verbose=true.] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ����ӽ�����ֵ���������Ų�����������ܲ�׼ȷ��RCOND =  8.982016e-18��] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1957 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ����ӽ�����ֵ���������Ų�����������ܲ�׼ȷ��RCOND =  4.454504e-17��] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1963 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ����ӽ�����ֵ���������Ų�����������ܲ�׼ȷ��RCOND =  6.935657e-18��] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1951 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ����ӽ�����ֵ���������Ų�����������ܲ�׼ȷ��RCOND =  1.794868e-18��] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1957 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ����ӽ�����ֵ���������Ų�����������ܲ�׼ȷ��RCOND =  1.084217e-19��] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1963 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1951 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1957 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1963 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3F (�� 2254 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 829 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3F (�� 2258 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 829 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ���� Strang-2 (midpoint reaction) �ڵ� 15 ��ʧ�ܣ�h=5.000e-03, eps=1.000e-06, ԭ��Midpoint Newton line search failed at tau=0.0025] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+[����: ���� Strang-2 (SDIRK2 reaction) �ڵ� 15 ��ʧ�ܣ�h=5.000e-03, eps=1.000e-06, ԭ��TR-BDF2 reaction Newton failed: alpha=7.322e-04, eps=1.000e-06, residual=2.892e+10] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+[����: ���� ARK3(2)4L[2]SA �ڵ� 21 ��ʧ�ܣ�h=5.000e-03, eps=1.000e-06, ԭ��ARK Newton failed at stage 2, h = 5.000000e-03, eps = 1.000000e-06. Try smaller h or set verbose=true.] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+SCAN_CASE_DONE eps=1e-06 case=sundials_gaussian_nonequilibrium eta=0.1 rows=77
+DONE eps=1e-06 case=noneq elapsed=188.512
+START eps=1e-08 case=weak
+IC mode=sundials_gaussian_nonequilibrium, component minima=[1 3.49999997 3.49999997]
+Equilibrium [Jf,Jg] Frobenius norm = 20642.9912337
+rho(Jf0)=1077.33333333, rho(Jg0)=100000001.001, chi=92821.7831074, q(h=0.005)=500000.005005
+Jg directional FD relative error = 1.62418282079e-13
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ����ӽ�����ֵ���������Ų�����������ܲ�׼ȷ��RCOND =  5.291378e-17��] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1951 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1957 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1963 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3F (�� 2254 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 829 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3F (�� 2258 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 829 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ���� Strang-2 (midpoint reaction) �ڵ� 6 ��ʧ�ܣ�h=2.000e-02, eps=1.000e-08, ԭ��Midpoint Newton line search failed at tau=0.01] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+[����: ���� Strang-2 (SDIRK2 reaction) �ڵ� 6 ��ʧ�ܣ�h=2.000e-02, eps=1.000e-08, ԭ��TR-BDF2 reaction Newton failed: alpha=2.929e-03, eps=1.000e-08, residual=6.240e+10] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+[����: ���� ARK3(2)4L[2]SA �ڵ� 6 ��ʧ�ܣ�h=2.000e-02, eps=1.000e-08, ԭ��ARK Newton failed at stage 4, h = 2.000000e-02, eps = 1.000000e-08. Try smaller h or set verbose=true.] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ����ӽ�����ֵ���������Ų�����������ܲ�׼ȷ��RCOND =  2.217565e-16��] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1951 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1957 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1963 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3F (�� 2254 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 829 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3F (�� 2258 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 829 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ���� Strang-2 (midpoint reaction) �ڵ� 10 ��ʧ�ܣ�h=1.000e-02, eps=1.000e-08, ԭ��Midpoint Newton did not converge at tau=0.005] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+[����: ���� Strang-2 (SDIRK2 reaction) �ڵ� 10 ��ʧ�ܣ�h=1.000e-02, eps=1.000e-08, ԭ��TR-BDF2 reaction Newton reached maxIter=30, alpha=1.464e-03, eps=1.000e-08] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+[����: ���� ARK3(2)4L[2]SA �ڵ� 10 ��ʧ�ܣ�h=1.000e-02, eps=1.000e-08, ԭ��ARK Newton failed at stage 2, h = 1.000000e-02, eps = 1.000000e-08. Try smaller h or set verbose=true.] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ����ӽ�����ֵ���������Ų�����������ܲ�׼ȷ��RCOND =  3.436797e-17��] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1957 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ����ӽ�����ֵ���������Ų�����������ܲ�׼ȷ��RCOND =  4.952434e-18��] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1951 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1957 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1963 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3F (�� 2254 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 829 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3F (�� 2258 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 829 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ���� Strang-2 (midpoint reaction) �ڵ� 18 ��ʧ�ܣ�h=5.000e-03, eps=1.000e-08, ԭ��Midpoint Newton line search failed at tau=0.0025] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+[����: ���� Strang-2 (SDIRK2 reaction) �ڵ� 18 ��ʧ�ܣ�h=5.000e-03, eps=1.000e-08, ԭ��TR-BDF2 reaction Newton failed: alpha=7.322e-04, eps=1.000e-08, residual=5.774e+09] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+[����: ���� ARK3(2)4L[2]SA �ڵ� 22 ��ʧ�ܣ�h=5.000e-03, eps=1.000e-08, ԭ��ARK Newton failed at stage 2, h = 5.000000e-03, eps = 1.000000e-08. Try smaller h or set verbose=true.] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+SCAN_CASE_DONE eps=1e-08 case=sundials_gaussian_nonequilibrium eta=0.001 rows=77
+DONE eps=1e-08 case=weak elapsed=192.584
+START eps=1e-08 case=noneq
+IC mode=sundials_gaussian_nonequilibrium, component minima=[1 3.5 3]
+Equilibrium [Jf,Jg] Frobenius norm = 20642.9912337
+rho(Jf0)=1077.33333333, rho(Jg0)=100000001.1, chi=92821.7831993, q(h=0.005)=500000.0055
+Jg directional FD relative error = 4.76174391925e-10
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1957 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1963 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3F (�� 2254 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 829 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3F (�� 2258 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 829 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ���� Strang-2 (midpoint reaction) �ڵ� 5 ��ʧ�ܣ�h=2.000e-02, eps=1.000e-08, ԭ��Midpoint Newton line search failed at tau=0.01] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+[����: ���� Strang-2 (SDIRK2 reaction) �ڵ� 5 ��ʧ�ܣ�h=2.000e-02, eps=1.000e-08, ԭ��TR-BDF2 reaction Newton failed: alpha=2.929e-03, eps=1.000e-08, residual=9.824e+09] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+[����: ���� ARK3(2)4L[2]SA �ڵ� 5 ��ʧ�ܣ�h=2.000e-02, eps=1.000e-08, ԭ��ARK Newton failed at stage 2, h = 2.000000e-02, eps = 1.000000e-08. Try smaller h or set verbose=true.] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1957 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1963 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3F (�� 2254 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 829 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3F (�� 2258 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 829 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ���� Strang-2 (midpoint reaction) �ڵ� 7 ��ʧ�ܣ�h=1.000e-02, eps=1.000e-08, ԭ��Midpoint Newton line search failed at tau=0.005] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+[����: ���� Strang-2 (SDIRK2 reaction) �ڵ� 7 ��ʧ�ܣ�h=1.000e-02, eps=1.000e-08, ԭ��TR-BDF2 reaction Newton failed: alpha=1.464e-03, eps=1.000e-08, residual=4.199e+08] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+[����: ���� ARK3(2)4L[2]SA �ڵ� 8 ��ʧ�ܣ�h=1.000e-02, eps=1.000e-08, ԭ��ARK Newton failed at stage 2, h = 1.000000e-02, eps = 1.000000e-08. Try smaller h or set verbose=true.] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ROK4E_autonomous (�� 1812 ��)
+λ��: Brusselator_sweep>reaction_balanced_substep_ROK4E (�� 1764 ��)
+λ��: Brusselator_sweep>step_Wu_SBS2 (�� 1746 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 814 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ����ӽ�����ֵ���������Ų�����������ܲ�׼ȷ��RCOND =  1.109392e-16��] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1957 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1951 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1957 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3C (�� 1963 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 817 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3F (�� 2254 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 829 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: �����ڹ���������Ϊ����ġ�] 
+[> λ�ã�Brusselator_sweep>step_ASIRK3F (�� 2258 ��)
+λ��: Brusselator_sweep>advance_one_step (�� 829 ��)
+λ��: Brusselator_sweep>integrate_FIXed_N (�� 735 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)
+] 
+[����: ���� Strang-2 (midpoint reaction) �ڵ� 15 ��ʧ�ܣ�h=5.000e-03, eps=1.000e-08, ԭ��Midpoint Newton line search failed at tau=0.0025] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+[����: ���� Strang-2 (SDIRK2 reaction) �ڵ� 15 ��ʧ�ܣ�h=5.000e-03, eps=1.000e-08, ԭ��TR-BDF2 reaction Newton failed: alpha=7.322e-04, eps=1.000e-08, residual=2.850e+10] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+[����: ���� ARK3(2)4L[2]SA �ڵ� 21 ��ʧ�ܣ�h=5.000e-03, eps=1.000e-08, ԭ��ARK Newton failed at stage 2, h = 5.000000e-03, eps = 1.000000e-08. Try smaller h or set verbose=true.] 
+[> λ�ã�Brusselator_sweep>integrate_FIXed_N (�� 737 ��)
+λ��: Brusselator_sweep (�� 191 ��)
+λ��: run (�� 112 ��)
+λ��: run_all (�� 11 ��)
+λ��: run (�� 112 ��)] 
+SCAN_CASE_DONE eps=1e-08 case=sundials_gaussian_nonequilibrium eta=0.1 rows=77
+DONE eps=1e-08 case=noneq elapsed=196.588

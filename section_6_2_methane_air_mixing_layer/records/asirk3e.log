@@ -1,0 +1,682 @@
+gcc-11.3.0 loaded successful
+cuda-11.8 loaded successful
+
+Loading mpi/openmpi4.1.5-gcc11.3.0-cuda11.8-ucx1.12.1
+  Loading requirement: ucx/1.12.1_cuda11.8 compilers/gcc/11.3.0
+    compilers/cuda/11.8
+******************************Parallel Information******************************
+	->-> Parallel computation chosen! Number of processes: ->-> 3. 
+	Process 1, will compute on device [[1(NVIDIA A100-PCIE-40GB)]] of node [[0(paraai-n32-h-01-agent-30)]].
+	Process 2, will compute on device [[2(NVIDIA A100-PCIE-40GB)]] of node [[0(paraai-n32-h-01-agent-30)]].
+	Process 0, will compute on device [[0(NVIDIA A100-PCIE-40GB)]] of node [[0(paraai-n32-h-01-agent-30)]].
+**************************Inviscid scheme Information***************************
+	->-> WENO7-cp             : inviscid scheme.
+	->-> 4                    : number of ghost layers.
+	->-> Yes                  : positive preserving.
+********************************Grid Information********************************
+	[[3]] blocks in all, the block number in each process is:
+		1   	1   	1   
+	The dimension of the blocks are:
+		Block 0:, mx = 301, my = 101, mz = 1
+		Block 1:, mx = 301, my = 101, mz = 1
+		Block 2:, mx = 301, my = 101, mz = 1
+	->-> 2-D problem
+	->-> 91203 : total grid number
+	Finish reading boundary conditions.
+	Finish reading inner communication faces.
+	Finish reading parallel communication faces.
+	->-> 1.000000e-04         : grid scale(meter).
+	Finish creating ghost grids.
+	Finish computing metrics and jacobian values.
+
+******************************Species Information*******************************
+	->-> 50                   : number of species
+	C	C2H	C2H2	C2H3	C2H4	C2H5	C2H6	CH	CH2	CH2(S)	
+	CH2CHO	CH2CO	CH2O	CH2OH	CH3	CH3CHO	CH3O	CH3OH	CH4	CN	
+	CO	CO2	H	H2	H2CN	H2O	H2O2	HCCO	HCCOH	HCN	
+	HCNN	HCNO	HCO	HNCO	HNO	HO2	HOCN	N	N2	N2O	
+	NCO	NH	NH2	NH3	NNH	NO	NO2	O	O2	OH	
+	
+	->-> 306                  : number of reactions
+		->-> Exact Point Implicit      : chemical source treatment
+	Info: No species is specified for statistical analysis.
+*******************************Simulation Details*******************************
+	->-> MIXINGLAYER          : canonical problem
+	->-> 55                   : number of equations to solve
+	->-> 50                   : number of scalar variables
+	->-> Transient            : flow simulation will be conducted.
+	->-> 2                    : order CDS for viscous flux
+
+*****************************Driver initialization******************************
+	Process [[2]], the free memory is  36.834GB, the used memory is   2.560GB
+	Process [[0]], the free memory is  36.834GB, the used memory is   2.560GB
+	Process [[1]], the free memory is  36.834GB, the used memory is   2.560GB
+	1.0000 CH4 + 2.0000 ( O2 + 3.7811 N2 ) = Products
+	1.0000 C + 4.0000 H + 4.0000 O -> P
+	\beta = ZC/12.0110 + ZH/4.0320 - ZO/31.9980
+	z_st=5.496289e-02
+	Boundary conditions are set.
+	->-> From previous results     : initialization method.
+
+*******************************Flow Information*********************************
+	Reference state:
+	Upper stream
+		->-> 3.0078394714e-01 : density(kg/m3)
+		->-> 1.7286381470e+03 : u(m/s)
+		->-> 0.0000000000e+00 : v(m/s)
+		->-> 0.0000000000e+00 : w(m/s)
+		->-> 1.7286381470e+03 : velocity(m/s)
+		->-> 2.0265000000e+05 : pressure(Pa)
+		->-> 1.3000000000e+03 : temperature(K)
+		->-> 1.0000000000e+00 : Y_CH4
+		->-> 8.6431907352e+02 : speed_of_sound(m/s)
+		->-> 1.1088077176e+00 : specific_heat_ratio
+		->-> 2.0000000000e+00 : Ma
+		->-> 1.5939043670e+07 : Re_unit(/m)
+		->-> 3.2620941118e-05 : mu(kg/m/s)
+	Lower stream
+		->-> 3.0047018732e-01 : density(kg/m3)
+		->-> 2.2678428382e+03 : u(m/s)
+		->-> 0.0000000000e+00 : v(m/s)
+		->-> 0.0000000000e+00 : w(m/s)
+		->-> 2.2678428382e+03 : velocity(m/s)
+		->-> 2.0265000000e+05 : pressure(Pa)
+		->-> 2.3400000000e+03 : temperature(K)
+		->-> 7.6800000000e-01 : Y_N2
+		->-> 2.3200000000e-01 : Y_O2
+		->-> 9.3302989700e+02 : speed_of_sound(m/s)
+		->-> 1.2907611928e+00 : specific_heat_ratio
+		->-> 2.4306218327e+00 : Ma
+		->-> 9.1815713068e+06 : Re_unit(/m)
+		->-> 7.4215963656e-05 : mu(kg/m/s)
+
+		->-> 1.9879338691e+03 : convective velocity(m/s)
+		->-> 1.0010442295e+00 : density_ratio
+		->-> 7.6223895145e-01 : velocity_ratio
+		->-> 5.3920469116e+02 : DeltaU
+	->-> 2.703445e+05         : WENO scale factor
+
+******************************Prepare to compute********************************
+	Boundary conditions are applied successfully for initialization
+	Start transferring data
+	Finish transferring data
+	The driver is completely initialized on GPU.
+
+	-> 3.9237e-04s : Current physical time
+	-> 3.2697e-05s : Flow through time computed with L(6.500e-02m)/U(1.988e+03m/s)
+	-> 4.0000e+00  : Number of flow through time to be computed.
+	-> 1.3079e-04s : Physical time to be simulated.
+	-> 5.2316e-04s : The end of the simulation time.
+
+****************************Time advancement starts with ASIRK-3F*****************************
+
+                                   rho    converged to:  3.8528e+00
+  n=   78500,   dt=4.0000000e-09,   V     converged to:  9.7902e-01   
+  n=   78500,   dt=4.0000000e-09,   p     converged to:  4.3866e-02   
+                                    T     converged to:  1.4638e-01
+Current physical  time is   3.92474000e-04s
+CPU time for this step is      16.28523335s
+Total elapsed CPU time is      16.28523335s
+
+                                   rho    converged to:  4.0585e+00
+  n=   79000,   dt=4.0000000e-09,   V     converged to:  1.0815e+00   
+  n=   79000,   dt=4.0000000e-09,   p     converged to:  4.2704e-02   
+                                    T     converged to:  1.5289e-01
+Current physical  time is   3.94474000e-04s
+CPU time for this step is     270.57043210s
+Total elapsed CPU time is     286.85566545s
+
+                                   rho    converged to:  4.1439e+00
+  n=   79500,   dt=4.0000000e-09,   V     converged to:  1.0553e+00   
+  n=   79500,   dt=4.0000000e-09,   p     converged to:  4.2382e-02   
+                                    T     converged to:  1.5461e-01
+Current physical  time is   3.96474000e-04s
+CPU time for this step is     270.90902573s
+Total elapsed CPU time is     557.76469118s
+
+                                   rho    converged to:  3.8527e+00
+  n=   80000,   dt=4.0000000e-09,   V     converged to:  1.0323e+00   
+  n=   80000,   dt=4.0000000e-09,   p     converged to:  4.2445e-02   
+                                    T     converged to:  1.4538e-01
+Current physical  time is   3.98474000e-04s
+CPU time for this step is     270.65700509s
+Total elapsed CPU time is     828.42169627s
+
+                                   rho    converged to:  3.8068e+00
+  n=   80500,   dt=4.0000000e-09,   V     converged to:  9.7745e-01   
+  n=   80500,   dt=4.0000000e-09,   p     converged to:  4.1471e-02   
+                                    T     converged to:  1.4271e-01
+Current physical  time is   4.00474000e-04s
+CPU time for this step is     273.45076374s
+Total elapsed CPU time is    1101.87246000s
+
+                                   rho    converged to:  3.7515e+00
+  n=   81000,   dt=4.0000000e-09,   V     converged to:  9.9340e-01   
+  n=   81000,   dt=4.0000000e-09,   p     converged to:  4.0792e-02   
+                                    T     converged to:  1.3832e-01
+Current physical  time is   4.02474000e-04s
+CPU time for this step is     272.16173969s
+Total elapsed CPU time is    1374.03419970s
+
+                                   rho    converged to:  3.8373e+00
+  n=   81500,   dt=4.0000000e-09,   V     converged to:  1.1641e+00   
+  n=   81500,   dt=4.0000000e-09,   p     converged to:  4.0693e-02   
+                                    T     converged to:  1.4154e-01
+Current physical  time is   4.04474000e-04s
+CPU time for this step is     271.47289888s
+Total elapsed CPU time is    1645.50709857s
+
+                                   rho    converged to:  3.4670e+00
+  n=   82000,   dt=4.0000000e-09,   V     converged to:  1.0097e+00   
+  n=   82000,   dt=4.0000000e-09,   p     converged to:  4.0741e-02   
+                                    T     converged to:  1.3202e-01
+Current physical  time is   4.06474000e-04s
+CPU time for this step is     271.89437096s
+Total elapsed CPU time is    1917.40146954s
+
+                                   rho    converged to:  3.2433e+00
+  n=   82500,   dt=4.0000000e-09,   V     converged to:  1.0694e+00   
+  n=   82500,   dt=4.0000000e-09,   p     converged to:  3.8761e-02   
+                                    T     converged to:  1.2392e-01
+Current physical  time is   4.08474000e-04s
+CPU time for this step is     269.97391286s
+Total elapsed CPU time is    2187.37538240s
+
+                                   rho    converged to:  3.4073e+00
+  n=   83000,   dt=4.0000000e-09,   V     converged to:  1.0250e+00   
+  n=   83000,   dt=4.0000000e-09,   p     converged to:  3.8091e-02   
+                                    T     converged to:  1.2648e-01
+Current physical  time is   4.10474000e-04s
+CPU time for this step is     270.37414135s
+Total elapsed CPU time is    2457.74952375s
+
+                                   rho    converged to:  3.2432e+00
+  n=   83500,   dt=4.0000000e-09,   V     converged to:  9.6642e-01   
+  n=   83500,   dt=4.0000000e-09,   p     converged to:  3.8626e-02   
+                                    T     converged to:  1.2121e-01
+Current physical  time is   4.12474000e-04s
+CPU time for this step is     269.66508007s
+Total elapsed CPU time is    2727.41460382s
+
+                                   rho    converged to:  3.5945e+00
+  n=   84000,   dt=4.0000000e-09,   V     converged to:  1.0109e+00   
+  n=   84000,   dt=4.0000000e-09,   p     converged to:  3.9588e-02   
+                                    T     converged to:  1.3296e-01
+Current physical  time is   4.14474000e-04s
+CPU time for this step is     269.12958931s
+Total elapsed CPU time is    2996.54419313s
+
+                                   rho    converged to:  3.4740e+00
+  n=   84500,   dt=4.0000000e-09,   V     converged to:  9.7241e-01   
+  n=   84500,   dt=4.0000000e-09,   p     converged to:  4.1239e-02   
+                                    T     converged to:  1.3303e-01
+Current physical  time is   4.16474000e-04s
+CPU time for this step is     268.77406333s
+Total elapsed CPU time is    3265.31825646s
+
+                                   rho    converged to:  3.8317e+00
+  n=   85000,   dt=4.0000000e-09,   V     converged to:  1.1516e+00   
+  n=   85000,   dt=4.0000000e-09,   p     converged to:  4.2335e-02   
+                                    T     converged to:  1.4547e-01
+Current physical  time is   4.18474000e-04s
+CPU time for this step is     268.44482610s
+Total elapsed CPU time is    3533.76308256s
+
+                                   rho    converged to:  3.9948e+00
+  n=   85500,   dt=4.0000000e-09,   V     converged to:  9.7914e-01   
+  n=   85500,   dt=4.0000000e-09,   p     converged to:  4.1820e-02   
+                                    T     converged to:  1.5078e-01
+Current physical  time is   4.20474000e-04s
+CPU time for this step is     271.32174692s
+Total elapsed CPU time is    3805.08482948s
+
+                                   rho    converged to:  4.2619e+00
+  n=   86000,   dt=4.0000000e-09,   V     converged to:  1.1037e+00   
+  n=   86000,   dt=4.0000000e-09,   p     converged to:  4.0427e-02   
+                                    T     converged to:  1.5918e-01
+Current physical  time is   4.22474000e-04s
+CPU time for this step is     269.51746095s
+Total elapsed CPU time is    4074.60229043s
+
+                                   rho    converged to:  4.3096e+00
+  n=   86500,   dt=4.0000000e-09,   V     converged to:  1.1654e+00   
+  n=   86500,   dt=4.0000000e-09,   p     converged to:  4.1370e-02   
+                                    T     converged to:  1.5950e-01
+Current physical  time is   4.24474000e-04s
+CPU time for this step is     270.22670561s
+Total elapsed CPU time is    4344.82899604s
+
+                                   rho    converged to:  4.4799e+00
+  n=   87000,   dt=4.0000000e-09,   V     converged to:  1.0511e+00   
+  n=   87000,   dt=4.0000000e-09,   p     converged to:  4.2481e-02   
+                                    T     converged to:  1.6436e-01
+Current physical  time is   4.26474000e-04s
+CPU time for this step is     271.19690325s
+Total elapsed CPU time is    4616.02589929s
+
+                                   rho    converged to:  4.5610e+00
+  n=   87500,   dt=4.0000000e-09,   V     converged to:  1.0110e+00   
+  n=   87500,   dt=4.0000000e-09,   p     converged to:  4.2550e-02   
+                                    T     converged to:  1.6951e-01
+Current physical  time is   4.28474000e-04s
+CPU time for this step is     270.40831996s
+Total elapsed CPU time is    4886.43421925s
+
+                                   rho    converged to:  4.3988e+00
+  n=   88000,   dt=4.0000000e-09,   V     converged to:  1.0067e+00   
+  n=   88000,   dt=4.0000000e-09,   p     converged to:  4.2633e-02   
+                                    T     converged to:  1.6347e-01
+Current physical  time is   4.30474000e-04s
+CPU time for this step is     271.57349462s
+Total elapsed CPU time is    5158.00771387s
+
+                                   rho    converged to:  4.4018e+00
+  n=   88500,   dt=4.0000000e-09,   V     converged to:  1.0501e+00   
+  n=   88500,   dt=4.0000000e-09,   p     converged to:  4.2420e-02   
+                                    T     converged to:  1.6160e-01
+Current physical  time is   4.32474000e-04s
+CPU time for this step is     270.99014586s
+Total elapsed CPU time is    5428.99785973s
+
+                                   rho    converged to:  4.3497e+00
+  n=   89000,   dt=4.0000000e-09,   V     converged to:  1.1933e+00   
+  n=   89000,   dt=4.0000000e-09,   p     converged to:  4.3782e-02   
+                                    T     converged to:  1.5830e-01
+Current physical  time is   4.34474000e-04s
+CPU time for this step is     271.37490204s
+Total elapsed CPU time is    5700.37276178s
+
+                                   rho    converged to:  4.2397e+00
+  n=   89500,   dt=4.0000000e-09,   V     converged to:  1.0622e+00   
+  n=   89500,   dt=4.0000000e-09,   p     converged to:  4.4243e-02   
+                                    T     converged to:  1.5673e-01
+Current physical  time is   4.36474000e-04s
+CPU time for this step is     271.71473217s
+Total elapsed CPU time is    5972.08749395s
+
+                                   rho    converged to:  4.2289e+00
+  n=   90000,   dt=4.0000000e-09,   V     converged to:  1.0778e+00   
+  n=   90000,   dt=4.0000000e-09,   p     converged to:  4.3604e-02   
+                                    T     converged to:  1.5841e-01
+Current physical  time is   4.38474000e-04s
+CPU time for this step is     271.00515319s
+Total elapsed CPU time is    6243.09264714s
+
+                                   rho    converged to:  4.0795e+00
+  n=   90500,   dt=4.0000000e-09,   V     converged to:  1.0121e+00   
+  n=   90500,   dt=4.0000000e-09,   p     converged to:  4.3125e-02   
+                                    T     converged to:  1.5257e-01
+Current physical  time is   4.40474000e-04s
+CPU time for this step is     271.91486047s
+Total elapsed CPU time is    6515.00750761s
+
+                                   rho    converged to:  3.9266e+00
+  n=   91000,   dt=4.0000000e-09,   V     converged to:  9.7332e-01   
+  n=   91000,   dt=4.0000000e-09,   p     converged to:  4.1367e-02   
+                                    T     converged to:  1.4421e-01
+Current physical  time is   4.42474000e-04s
+CPU time for this step is     270.68043666s
+Total elapsed CPU time is    6785.68794427s
+
+                                   rho    converged to:  3.9007e+00
+  n=   91500,   dt=4.0000000e-09,   V     converged to:  1.0056e+00   
+  n=   91500,   dt=4.0000000e-09,   p     converged to:  4.0674e-02   
+                                    T     converged to:  1.4365e-01
+Current physical  time is   4.44474000e-04s
+CPU time for this step is     271.72131945s
+Total elapsed CPU time is    7057.40926372s
+
+                                   rho    converged to:  3.9483e+00
+  n=   92000,   dt=4.0000000e-09,   V     converged to:  1.0245e+00   
+  n=   92000,   dt=4.0000000e-09,   p     converged to:  4.2521e-02   
+                                    T     converged to:  1.4474e-01
+Current physical  time is   4.46474000e-04s
+CPU time for this step is     271.21242363s
+Total elapsed CPU time is    7328.62168735s
+
+                                   rho    converged to:  4.1676e+00
+  n=   92500,   dt=4.0000000e-09,   V     converged to:  1.0117e+00   
+  n=   92500,   dt=4.0000000e-09,   p     converged to:  4.3808e-02   
+                                    T     converged to:  1.5418e-01
+Current physical  time is   4.48474000e-04s
+CPU time for this step is     270.63885822s
+Total elapsed CPU time is    7599.26054557s
+
+                                   rho    converged to:  4.1396e+00
+  n=   93000,   dt=4.0000000e-09,   V     converged to:  1.0227e+00   
+  n=   93000,   dt=4.0000000e-09,   p     converged to:  4.2926e-02   
+                                    T     converged to:  1.5417e-01
+Current physical  time is   4.50474000e-04s
+CPU time for this step is     271.12506812s
+Total elapsed CPU time is    7870.38561369s
+
+                                   rho    converged to:  3.9942e+00
+  n=   93500,   dt=4.0000000e-09,   V     converged to:  1.0540e+00   
+  n=   93500,   dt=4.0000000e-09,   p     converged to:  3.9943e-02   
+                                    T     converged to:  1.4843e-01
+Current physical  time is   4.52474000e-04s
+CPU time for this step is     270.94088612s
+Total elapsed CPU time is    8141.32649982s
+
+                                   rho    converged to:  3.8225e+00
+  n=   94000,   dt=4.0000000e-09,   V     converged to:  1.1059e+00   
+  n=   94000,   dt=4.0000000e-09,   p     converged to:  3.9022e-02   
+                                    T     converged to:  1.4100e-01
+Current physical  time is   4.54474000e-04s
+CPU time for this step is     271.89627681s
+Total elapsed CPU time is    8413.22277662s
+
+                                   rho    converged to:  3.7639e+00
+  n=   94500,   dt=4.0000000e-09,   V     converged to:  1.1070e+00   
+  n=   94500,   dt=4.0000000e-09,   p     converged to:  4.1462e-02   
+                                    T     converged to:  1.4064e-01
+Current physical  time is   4.56474000e-04s
+CPU time for this step is     271.58894693s
+Total elapsed CPU time is    8684.81172355s
+
+                                   rho    converged to:  3.9338e+00
+  n=   95000,   dt=4.0000000e-09,   V     converged to:  1.0170e+00   
+  n=   95000,   dt=4.0000000e-09,   p     converged to:  4.2312e-02   
+                                    T     converged to:  1.4837e-01
+Current physical  time is   4.58474000e-04s
+CPU time for this step is     271.42565755s
+Total elapsed CPU time is    8956.23738110s
+
+                                   rho    converged to:  3.9928e+00
+  n=   95500,   dt=4.0000000e-09,   V     converged to:  1.0765e+00   
+  n=   95500,   dt=4.0000000e-09,   p     converged to:  4.3210e-02   
+                                    T     converged to:  1.5074e-01
+Current physical  time is   4.60474000e-04s
+CPU time for this step is     273.55887172s
+Total elapsed CPU time is    9229.79625282s
+
+                                   rho    converged to:  4.0560e+00
+  n=   96000,   dt=4.0000000e-09,   V     converged to:  1.0955e+00   
+  n=   96000,   dt=4.0000000e-09,   p     converged to:  4.2974e-02   
+                                    T     converged to:  1.5213e-01
+Current physical  time is   4.62474000e-04s
+CPU time for this step is     270.30515774s
+Total elapsed CPU time is    9500.10141056s
+
+                                   rho    converged to:  4.3187e+00
+  n=   96500,   dt=4.0000000e-09,   V     converged to:  9.9577e-01   
+  n=   96500,   dt=4.0000000e-09,   p     converged to:  4.2126e-02   
+                                    T     converged to:  1.5807e-01
+Current physical  time is   4.64474000e-04s
+CPU time for this step is     271.12565486s
+Total elapsed CPU time is    9771.22706541s
+
+                                   rho    converged to:  4.1509e+00
+  n=   97000,   dt=4.0000000e-09,   V     converged to:  1.1631e+00   
+  n=   97000,   dt=4.0000000e-09,   p     converged to:  4.1101e-02   
+                                    T     converged to:  1.5216e-01
+Current physical  time is   4.66474000e-04s
+CPU time for this step is     270.77511812s
+Total elapsed CPU time is   10042.00218353s
+
+                                   rho    converged to:  3.9974e+00
+  n=   97500,   dt=4.0000000e-09,   V     converged to:  1.0410e+00   
+  n=   97500,   dt=4.0000000e-09,   p     converged to:  3.9767e-02   
+                                    T     converged to:  1.4745e-01
+Current physical  time is   4.68474000e-04s
+CPU time for this step is     271.82381826s
+Total elapsed CPU time is   10313.82600179s
+
+                                   rho    converged to:  3.7577e+00
+  n=   98000,   dt=4.0000000e-09,   V     converged to:  1.0966e+00   
+  n=   98000,   dt=4.0000000e-09,   p     converged to:  4.0527e-02   
+                                    T     converged to:  1.4194e-01
+Current physical  time is   4.70474000e-04s
+CPU time for this step is     270.60194758s
+Total elapsed CPU time is   10584.42794936s
+
+                                   rho    converged to:  3.8256e+00
+  n=   98500,   dt=4.0000000e-09,   V     converged to:  1.1302e+00   
+  n=   98500,   dt=4.0000000e-09,   p     converged to:  4.2680e-02   
+                                    T     converged to:  1.4632e-01
+Current physical  time is   4.72474000e-04s
+CPU time for this step is     272.62298898s
+Total elapsed CPU time is   10857.05093835s
+
+                                   rho    converged to:  4.0362e+00
+  n=   99000,   dt=4.0000000e-09,   V     converged to:  1.0376e+00   
+  n=   99000,   dt=4.0000000e-09,   p     converged to:  4.5785e-02   
+                                    T     converged to:  1.5453e-01
+Current physical  time is   4.74474000e-04s
+CPU time for this step is     270.24929487s
+Total elapsed CPU time is   11127.30023321s
+
+                                   rho    converged to:  4.2225e+00
+  n=   99500,   dt=4.0000000e-09,   V     converged to:  1.0277e+00   
+  n=   99500,   dt=4.0000000e-09,   p     converged to:  4.3472e-02   
+                                    T     converged to:  1.5866e-01
+Current physical  time is   4.76474000e-04s
+CPU time for this step is     270.65352027s
+Total elapsed CPU time is   11397.95375348s
+
+                                   rho    converged to:  4.4665e+00
+  n=  100000,   dt=4.0000000e-09,   V     converged to:  1.0394e+00   
+  n=  100000,   dt=4.0000000e-09,   p     converged to:  4.1204e-02   
+                                    T     converged to:  1.6305e-01
+Current physical  time is   4.78474000e-04s
+CPU time for this step is     271.58278663s
+Total elapsed CPU time is   11669.53654011s
+
+                                   rho    converged to:  4.2028e+00
+  n=  100500,   dt=4.0000000e-09,   V     converged to:  1.0711e+00   
+  n=  100500,   dt=4.0000000e-09,   p     converged to:  4.1169e-02   
+                                    T     converged to:  1.5338e-01
+Current physical  time is   4.80474000e-04s
+CPU time for this step is     271.51545944s
+Total elapsed CPU time is   11941.05199955s
+
+                                   rho    converged to:  3.7048e+00
+  n=  101000,   dt=4.0000000e-09,   V     converged to:  1.1443e+00   
+  n=  101000,   dt=4.0000000e-09,   p     converged to:  4.2387e-02   
+                                    T     converged to:  1.3958e-01
+Current physical  time is   4.82474000e-04s
+CPU time for this step is     270.78018584s
+Total elapsed CPU time is   12211.83218539s
+
+                                   rho    converged to:  3.6464e+00
+  n=  101500,   dt=4.0000000e-09,   V     converged to:  1.0549e+00   
+  n=  101500,   dt=4.0000000e-09,   p     converged to:  4.3515e-02   
+                                    T     converged to:  1.3769e-01
+Current physical  time is   4.84474000e-04s
+CPU time for this step is     270.97176785s
+Total elapsed CPU time is   12482.80395324s
+
+                                   rho    converged to:  3.9205e+00
+  n=  102000,   dt=4.0000000e-09,   V     converged to:  1.0616e+00   
+  n=  102000,   dt=4.0000000e-09,   p     converged to:  4.2282e-02   
+                                    T     converged to:  1.4504e-01
+Current physical  time is   4.86474000e-04s
+CPU time for this step is     270.20734772s
+Total elapsed CPU time is   12753.01130096s
+
+                                   rho    converged to:  3.9513e+00
+  n=  102500,   dt=4.0000000e-09,   V     converged to:  1.0653e+00   
+  n=  102500,   dt=4.0000000e-09,   p     converged to:  4.1937e-02   
+                                    T     converged to:  1.4640e-01
+Current physical  time is   4.88474000e-04s
+CPU time for this step is     270.43721077s
+Total elapsed CPU time is   13023.44851173s
+
+                                   rho    converged to:  3.9159e+00
+  n=  103000,   dt=4.0000000e-09,   V     converged to:  9.9752e-01   
+  n=  103000,   dt=4.0000000e-09,   p     converged to:  4.1559e-02   
+                                    T     converged to:  1.4665e-01
+Current physical  time is   4.90474000e-04s
+CPU time for this step is     270.23184938s
+Total elapsed CPU time is   13293.68036111s
+
+                                   rho    converged to:  3.8369e+00
+  n=  103500,   dt=4.0000000e-09,   V     converged to:  1.0326e+00   
+  n=  103500,   dt=4.0000000e-09,   p     converged to:  4.0534e-02   
+                                    T     converged to:  1.4466e-01
+Current physical  time is   4.92474000e-04s
+CPU time for this step is     271.93275924s
+Total elapsed CPU time is   13565.61312035s
+
+                                   rho    converged to:  3.6304e+00
+  n=  104000,   dt=4.0000000e-09,   V     converged to:  1.1203e+00   
+  n=  104000,   dt=4.0000000e-09,   p     converged to:  4.1170e-02   
+                                    T     converged to:  1.3497e-01
+Current physical  time is   4.94474000e-04s
+CPU time for this step is     271.47204134s
+Total elapsed CPU time is   13837.08516168s
+
+                                   rho    converged to:  3.9198e+00
+  n=  104500,   dt=4.0000000e-09,   V     converged to:  1.0135e+00   
+  n=  104500,   dt=4.0000000e-09,   p     converged to:  4.4452e-02   
+                                    T     converged to:  1.4501e-01
+Current physical  time is   4.96474000e-04s
+CPU time for this step is     271.53600961s
+Total elapsed CPU time is   14108.62117129s
+
+                                   rho    converged to:  4.2694e+00
+  n=  105000,   dt=4.0000000e-09,   V     converged to:  9.6315e-01   
+  n=  105000,   dt=4.0000000e-09,   p     converged to:  4.5966e-02   
+                                    T     converged to:  1.6059e-01
+Current physical  time is   4.98474000e-04s
+CPU time for this step is     271.71961043s
+Total elapsed CPU time is   14380.34078172s
+
+                                   rho    converged to:  4.3891e+00
+  n=  105500,   dt=4.0000000e-09,   V     converged to:  1.1742e+00   
+  n=  105500,   dt=4.0000000e-09,   p     converged to:  4.4050e-02   
+                                    T     converged to:  1.6545e-01
+Current physical  time is   5.00474000e-04s
+CPU time for this step is     272.42812302s
+Total elapsed CPU time is   14652.76890475s
+
+                                   rho    converged to:  4.3086e+00
+  n=  106000,   dt=4.0000000e-09,   V     converged to:  1.0264e+00   
+  n=  106000,   dt=4.0000000e-09,   p     converged to:  4.1594e-02   
+                                    T     converged to:  1.5854e-01
+Current physical  time is   5.02474000e-04s
+CPU time for this step is     270.19553298s
+Total elapsed CPU time is   14922.96443773s
+
+                                   rho    converged to:  3.9480e+00
+  n=  106500,   dt=4.0000000e-09,   V     converged to:  1.1357e+00   
+  n=  106500,   dt=4.0000000e-09,   p     converged to:  4.1032e-02   
+                                    T     converged to:  1.4595e-01
+Current physical  time is   5.04474000e-04s
+CPU time for this step is     270.08950699s
+Total elapsed CPU time is   15193.05394471s
+
+                                   rho    converged to:  3.5675e+00
+  n=  107000,   dt=4.0000000e-09,   V     converged to:  1.0680e+00   
+  n=  107000,   dt=4.0000000e-09,   p     converged to:  4.2384e-02   
+                                    T     converged to:  1.3555e-01
+Current physical  time is   5.06474000e-04s
+CPU time for this step is     270.91839269s
+Total elapsed CPU time is   15463.97233740s
+
+                                   rho    converged to:  3.8053e+00
+  n=  107500,   dt=4.0000000e-09,   V     converged to:  1.1631e+00   
+  n=  107500,   dt=4.0000000e-09,   p     converged to:  4.3015e-02   
+                                    T     converged to:  1.4330e-01
+Current physical  time is   5.08474000e-04s
+CPU time for this step is     270.21990132s
+Total elapsed CPU time is   15734.19223872s
+
+                                   rho    converged to:  4.1645e+00
+  n=  108000,   dt=4.0000000e-09,   V     converged to:  1.0679e+00   
+  n=  108000,   dt=4.0000000e-09,   p     converged to:  4.3558e-02   
+                                    T     converged to:  1.5396e-01
+Current physical  time is   5.10474000e-04s
+CPU time for this step is     270.89038994s
+Total elapsed CPU time is   16005.08262866s
+
+                                   rho    converged to:  4.2755e+00
+  n=  108500,   dt=4.0000000e-09,   V     converged to:  1.1087e+00   
+  n=  108500,   dt=4.0000000e-09,   p     converged to:  4.3428e-02   
+                                    T     converged to:  1.5874e-01
+Current physical  time is   5.12474000e-04s
+CPU time for this step is     272.73338245s
+Total elapsed CPU time is   16277.81601110s
+
+                                   rho    converged to:  4.2612e+00
+  n=  109000,   dt=4.0000000e-09,   V     converged to:  1.0732e+00   
+  n=  109000,   dt=4.0000000e-09,   p     converged to:  4.2553e-02   
+                                    T     converged to:  1.5678e-01
+Current physical  time is   5.14474000e-04s
+CPU time for this step is     270.63846365s
+Total elapsed CPU time is   16548.45447475s
+
+                                   rho    converged to:  4.1427e+00
+  n=  109500,   dt=4.0000000e-09,   V     converged to:  1.1835e+00   
+  n=  109500,   dt=4.0000000e-09,   p     converged to:  3.9922e-02   
+                                    T     converged to:  1.5111e-01
+Current physical  time is   5.16474000e-04s
+CPU time for this step is     271.56500438s
+Total elapsed CPU time is   16820.01947913s
+
+                                   rho    converged to:  3.8854e+00
+  n=  110000,   dt=4.0000000e-09,   V     converged to:  1.1054e+00   
+  n=  110000,   dt=4.0000000e-09,   p     converged to:  4.0906e-02   
+                                    T     converged to:  1.4465e-01
+Current physical  time is   5.18474000e-04s
+CPU time for this step is     270.92683669s
+Total elapsed CPU time is   17090.94631582s
+
+                                   rho    converged to:  3.9273e+00
+  n=  110500,   dt=4.0000000e-09,   V     converged to:  1.1274e+00   
+  n=  110500,   dt=4.0000000e-09,   p     converged to:  4.3635e-02   
+                                    T     converged to:  1.4755e-01
+Current physical  time is   5.20474000e-04s
+CPU time for this step is     272.08805941s
+Total elapsed CPU time is   17363.03437523s
+
+                                   rho    converged to:  4.2747e+00
+  n=  111000,   dt=4.0000000e-09,   V     converged to:  1.2056e+00   
+  n=  111000,   dt=4.0000000e-09,   p     converged to:  4.4645e-02   
+                                    T     converged to:  1.5892e-01
+Current physical  time is   5.22474000e-04s
+CPU time for this step is     270.56319570s
+Total elapsed CPU time is   17633.59757093s
+The simulated physical time is 5.231660e-04, which is larger than required physical time 5.231631e-04.
+The simulated physical time is 5.231660e-04, which is larger than required physical time 5.231631e-04.
+The simulated physical time is 5.231660e-04, which is larger than required physical time 5.231631e-04.
+Yeah, baby, we are ok now
+  0%|          | 0/33 [00:00<?, ?it/s]100%|██████████| 33/33 [00:00<00:00, 444.00it/s]
+
+
+
+============ Job 1282806 Performance Details ============
+JobID: 1282806
+User: scx6d0j
+Nodes、GPU: paraai-n32-h-01-agent-30: 1,2,3
+Time Range: 2026-06-16 16:37:06 - 2026-06-16 21:32:41
+Running time: 0d4H55M35S
+GPU Util: 91.77 %
+GMem Util: 13.77 %
+GMemBW Util: 46.59 %
+Tensor Core Util: 0 %
+Tensor IMMA Util: N/A
+Tensor HMMA Util: N/A
+Tensor DFMA Util: N/A
+FP64 Util: 15.74 %
+FP32 Util: 0.04 %
+FP16 Util: 0 %
+GPCIE RX: 40.14 MB/s
+GPCIE TX: 17.97 MB/s
+GNVLINK: N/A
+GPU Power: 572.02 W
+GPU Temperature: 40.00 °C
+
+Additional Performance Data:
+--- flops performance(avg to single card) ---
+|- fp64: 2 TFlops
+> |- GMEMBW/F: 486,165 B/MF
+> |- NVLINK/F: No Data
+> |- IB_TX/F: No Data
+> |- IB_RX/F: No Data
+> |- PCIE_TX/F: 4 B/MF
+> |- PCIE_RX/F: 9 B/MF
+|- fp32: 0 TFlops
+|- fp16: 0 TFlops
+|- tensor: 0 TFlops
+=========================================================
